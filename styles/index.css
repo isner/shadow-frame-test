@@ -1,0 +1,25 @@
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0 1em;
+}
+
+#container {
+  width: 800px;
+}
+
+ul.root {
+  color: #eee;
+}
+
+[id*="shadow-root"] {
+  padding: 1em;
+  background-color: #865bb8;
+  color: #ffffff;
+}
+
+#top-level-frame {
+  height: 280px;
+}

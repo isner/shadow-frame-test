@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Shadow DOM Demo</title>
+    <link rel="stylesheet" href="styles/index.css">
+  </head>
+  <body>
+    <div id="container">
+      <h1>Shadow DOM and Frame Demo</h1>
+      <h2>Root DOM</h2>
+      <ul class="root">
+        <p>Root Item 1</p>
+        <p>Root Item 2</p>
+      </ul>
+      <iframe title="Top Level Frame" id="top-level-frame" src="top-level-frame.html"></iframe>
+      <div id="top-shadow-root"></div>
+    </div>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
